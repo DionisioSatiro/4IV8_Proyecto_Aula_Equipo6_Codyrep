@@ -1,0 +1,91 @@
+*{
+    background-color:#E2E4F7;
+    margin: 0px;
+    font-family: 'Merriweather', serif;
+}
+body{
+    background: #E2E4F7;
+    font-family: Arial, "HelveticaNeueLT Std", sans-serif;
+}
+#container{
+    width: 70%;
+    margin: 0 auto;
+    border: 5px solid #E2E4F7;
+}
+header{
+    background: gray;
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    line-height: 100px;
+    color: #5D5E5E;
+    border-bottom: 0 dashed black;
+}
+nav{
+    background: #424561;
+    height: 50px;
+    border-bottom: 0 dashed #424561;
+    text-align: center;
+}
+nav ul li{
+    float: left;
+    list-style: none;
+    margin: 10px;
+    line-height: 30px;
+    text-align: center;
+
+}
+#content{
+    float: left;
+    width: calc(80% - 85px);
+    min-height: 500px;
+    padding: 40px;
+    border-right: 5px solid #424561;
+}
+.article:first-child{
+    border-top: 1px solid black;
+    padding-bottom: 10px;
+}
+.article h2{
+    font-size: 25px;
+}
+.article{
+    color: #5D5E5E;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+}
+aside{
+    float: left;
+    width: calc(20% - 20px);
+    min-height: 500px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 20px;
+    font-size:large;
+
+}
+aside h2{
+    color: #5D5E5E;
+}
+.clearfix{
+    clear: both;
+}
+footer{
+    background: #424561;
+    color: gray;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+    border-top: 5px solid #5D5E5E;
+}
+
+.proceso{
+    
+    color: gray;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+    border-top: 5px solid #5D5E5E;
+}
