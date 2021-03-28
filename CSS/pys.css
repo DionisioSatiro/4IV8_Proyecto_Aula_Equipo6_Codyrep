@@ -1,0 +1,53 @@
+*{
+
+    text-align: center;
+
+}
+
+.main_container{
+ 
+    padding:1rem;
+    margin:1rem;
+
+}
+
+.titulo{
+
+    background-color: azure;
+    font-size: 2rem;
+
+}
+
+#top{
+
+    overflow: hidden;
+    background-color: black;
+    color: aliceblue;
+
+}
+
+#but{
+
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+
+}
+
+.left{
+
+    width: 45%;
+    float: left;
+    padding:1rem;
+    margin:1rem;
+    
+
+}
+
+.right{
+
+    width: 45%;
+    float: right;
+    padding:1rem;
+    margin:1rem;
+
+}
