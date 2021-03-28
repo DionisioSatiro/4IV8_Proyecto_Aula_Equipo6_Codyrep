@@ -1,0 +1,53 @@
+*{
+
+    text-align: center;
+
+}
+
+.main_container{
+
+    overflow: hidden;
+    background-color: rgb(37, 37, 39);
+
+}
+
+.Titulo{
+
+    background-color: rgb(46, 137, 160);
+    font-size: 2em;
+    color: rgb(231, 250, 255);
+}
+
+#Izquierdo{
+
+    align-items: center;
+    float: left;
+    width: 45%;
+    padding:1rem;
+    margin:1rem;
+
+}
+
+#Derecho{
+    
+    align-items: center;
+    float: right;
+    width: 45%;
+    padding:1rem;
+    margin:1rem;
+
+}
+
+.Caso{
+
+    background-color: azure;
+    color: rgb(59, 59, 59);
+    width: 80%;
+
+}
+
+.Separacion{
+
+    padding: 20rem;
+
+}
