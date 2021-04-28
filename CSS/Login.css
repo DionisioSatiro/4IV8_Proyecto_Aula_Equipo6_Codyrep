@@ -1,0 +1,49 @@
+main{
+    background-color: #f4ecf6;
+    padding: 5rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Botones-login{
+    align-items: center;
+    padding: 1rem;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    background-color: #a4ebf3;
+    width: 45%;
+}
+
+.Titulo-login{
+    background-color: #f4c0ec;
+    text-align: center;
+    padding: 1rem;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    border-color: black;
+    width: 45%;
+}
+
+.Blogin{
+    margin: 1rem;
+    width: 90%;
+    height: 5rem;
+    border: 1px solid;
+    background: #006f9b;
+    border-radius: 25px;
+    font-size: 18px;
+    color:#64ccf4;
+    font-weight: 700;
+    cursor: pointer;
+    outline: none;
+} 
+
+.Blogin:hover{
+    border-color: #006f9b;
+    transition: .5s;
+}
+
+.Blogin a{
+    color: white;
+    text-decoration: none;
+}
