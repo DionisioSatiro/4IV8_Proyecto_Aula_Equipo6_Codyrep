@@ -1,0 +1,139 @@
+body{
+    font-family:Georgia, impact, Times, serif;
+    color:rgb(49, 49, 49);
+    box-sizing: border-box;
+}
+
+header{
+    background-color: #64ccf4;
+    color:white;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+}
+
+header a{
+    color: white;
+    text-decoration: none;
+}
+
+.header-container{
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navegation ul{
+    margin: 0px;
+    padding: 0;
+    list-style: none;
+}
+
+.navegation ul li{
+    display: inline-block;
+}
+
+.navegation ul li a{
+    display: block;
+    padding: 0.5rem 1rem;
+    transition: all 0.4s linear;
+    border-radius: 5px;
+}
+
+.navegation ul li a:hover{
+    background-color: #39bbee;
+
+}
+
+.Topics{
+    margin: 3rem;
+    align-items: center;
+    overflow: hidden;
+}
+
+.article{
+    margin: 2rem;
+    text-align: center;
+    width: 40%;
+    float: left;
+}
+
+footer{
+    background-color: #a8e8f0;
+    padding: 2rem;
+}
+
+.footer-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-foot{
+    width: 20%;
+    padding: 0 10px;
+}
+
+.col-foot h4{
+    font-size: 18px;
+    color: #006f9b;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    font-weight: 500;
+    position: relative;
+}
+
+.col-foot h4::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #ff66a1;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+
+.col-foot ul{
+    list-style: none;
+}
+
+.col-foot ul li:not(:last-child){
+    margin-bottom: 10px;
+    color: rgb(49, 49, 49);
+}
+
+.col-foot ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: rgb(49, 49, 49);
+    text-decoration: none;
+    font-weight: 300;
+    display: block;
+    transition-delay: all 0.3s ease;
+}
+
+.col-foot ul li a:hover{
+    color: #ff0062;
+    padding-left: 10px;
+}
+
+.col-foot .social-links a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: #ff0062;
+    color: rgb(49, 49, 49); 
+    margin 10px 10px 10px 10px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    transition:all 0.5% ease;
+    
+}
+
+.col-foot .social-links a:hover{
+    color: #ffffff;
+    background-color: #ff66a1;
+}
