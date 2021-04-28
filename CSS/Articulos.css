@@ -13,16 +13,17 @@ main{
 .barra-navegation{
     background-color: #ffb9d5;
     padding: 2rem;
-    width: 25%;
+    width: 20%;
 }
 
-.barra-navegation h3{
+.barra-navegation h3 a{
     font-size: 18px;
     color: #ff0062;
     text-transform: capitalize;
     margin-bottom: 30px;
     font-weight: 500;
     position: relative;
+    text-decoration: none;
 }
 
 .barra-navegation ul{
@@ -50,5 +51,12 @@ main{
 
 .Topics{
     width: 60%;
-    
+
+}
+
+.Topic{
+    margin: 2rem;
+    text-align: center;
+    width: 40%;
+    float: left;
 }
