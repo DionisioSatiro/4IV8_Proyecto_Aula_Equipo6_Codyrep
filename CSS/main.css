@@ -118,3 +118,22 @@ footer{
     color: #ff0062;
     padding-left: 10px;
 }
+
+.col-foot .social-links a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: #ff0062;
+    color: rgb(49, 49, 49); 
+    margin 10px 10px 10px 10px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    transition:all 0.5% ease;
+    
+}
+
+.col-foot .social-links a:hover{
+    color: #ffffff;
+    background-color: #ff66a1;
+}
