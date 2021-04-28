@@ -47,6 +47,10 @@ header a{
 
 }
 
+.space{
+    height: 1rem;
+}
+
 .Topics{
     margin: 3rem;
     align-items: center;
