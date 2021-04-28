@@ -8,6 +8,7 @@
         <title>Codyrep</title>
         <link rel="stylesheet" type="text/css" href="./CSS/main.css">
         <link rel="stylesheet" type="text/css" href="./CSS/Login.css">
+        <link rel="stylesheet" type="text/css" href="./CSS/IniciarSesion.css">
         <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
 
     </head>
@@ -30,13 +31,30 @@
 
         <main>
             <div class="Botones-login">
-                <button name="Iniciar sesión" class="Blogin" id="Iniciar-Sesión"><a href="./IniciarSesion.html">Iniciar sesión</a></button>
-                <button name="Registrarse" class="Blogin"  id="Registrarse"><a href="./Registrarse.html">Registrarse</a></button>
-                <button name="Solicitar Registro como administrador" class="Blogin"  id="Registrarse-Administrador"><a href="./RegistrarseAdministrador.html">Solicitar Registro como administrador</a></button>
+                <h1>Registrate</h1>
+                <form method="post">
+                    <div class="text_field">
+                        <input type="text" required>
+                        <span></span>
+                        <label>Usuario</label>
+                    </div>
+                    <div class="text_field">
+                        <input type="password" required>
+                        <span></span>
+                        <label>Contraseña</label>
+                    </div>
+                    <div class="Nacimiento">
+                        <p>Fecha de nacimiento</p>
+                        <input type="date" name"FNacimiento">
+                    </div>
+                    <button name="Login" class="Login"><a href="./Bitacora.html">Registrarme</a></button>
+                    <div class="registrarse"><a href="./IniciarSesion.html">Iniciar sesión</a></div>
+                    <div class="registrarse"><a href="./RegistrarseAdministrador.html">Registrarme como Administrador</a></div>
+                </form>
             </div>
             <div class="Titulo-login">
-                <H1>Bienvenido a su bitacora</H1>
-                <p>¿Qué desea hacer?</p>
+                <H1>Disfrute de los beneficios de tener una bitacora</H1>
+                <p></p>
             </div>
         </main>
 
