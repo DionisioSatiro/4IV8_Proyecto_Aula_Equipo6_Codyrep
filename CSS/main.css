@@ -44,7 +44,10 @@ header a{
 
 .navegation ul li a:hover{
     background-color: #39bbee;
+}
 
+.space{
+    height: 3rem;
 }
 
 .Topics{
@@ -115,7 +118,7 @@ footer{
 }
 
 .col-foot ul li a:hover{
-    color: #ff0062;
+    color: #ff2d7e;
     padding-left: 10px;
 }
 
@@ -123,7 +126,7 @@ footer{
     display: inline-block;
     height: 40px;
     width: 40px;
-    background-color: #ff0062;
+    background-color: #ff2d7e;
     color: rgb(49, 49, 49); 
     margin 10px 10px 10px 10px;
     text-align: center;
