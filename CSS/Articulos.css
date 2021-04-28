@@ -1,0 +1,53 @@
+body{
+    font-family:Georgia, impact, Times, serif;
+    color:rgb(49, 49, 49);
+    box-sizing: border-box;
+}
+
+main{
+    
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.barra-navegation{
+    background-color: #ffb9d5;
+    padding: 2rem;
+    width: 25%;
+}
+
+.barra-navegation h3{
+    font-size: 18px;
+    color: #ff0062;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    font-weight: 500;
+    position: relative;
+}
+
+.barra-navegation ul{
+    list-style: none;
+}
+
+.barra-navegation ul li:not(:last-child){
+    margin-bottom: 10px;
+}
+
+.barra-navegation ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: rgb(49, 49, 49);
+    text-decoration: none;
+    font-weight: 300;
+    display: block;
+    transition-delay: all 0.3s ease;
+}
+
+.barra-navegation ul li a:hover{
+    color: #006f9b;
+    padding-left: 10px;
+}
+
+.Topics{
+    width: 60%;
+}
