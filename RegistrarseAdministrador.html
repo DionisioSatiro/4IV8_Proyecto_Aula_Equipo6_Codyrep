@@ -14,13 +14,13 @@
     </head>
     <body>
 
-        <header>
+        <header style="background-image: url('./Images/Nav.png'); width: 100%;">
             <div class="header-container">
-                <img src="./Images/logo.png" alt="Codificate" title="Codificate" width="20%" class="logo">
+                <img src="./Images/logo.png" alt="Codificate" title="Codificate" width="10%" class="logo">
                 <nav class="navegation">
                     <ul>
                         <li><a href="./index.html">Inicio</a></li>
-                        <li><a href="./Articulos.html">Artículos</a></li>
+                        <li><a href="./Topics.html">Artículos</a></li>
                         <li><a href="./Login.html">Bitácora</a></li>
                     </ul>
                 </nav>
@@ -29,34 +29,43 @@
 
         <div class="space"></div>
 
-        <main>
-            <div class="Botones-login">
-                <h1>Registro de Administrador</h1>
-                <form method="post">
-                    <div class="text_field">
-                        <input type="text" required>
-                        <span></span>
-                        <label>Usuario</label>
-                    </div>
-                    <div class="text_field">
-                        <input type="password" required>
-                        <span></span>
-                        <label>Contraseña</label>
-                    </div>
-                    <div class="Nacimiento">
-                        <p>Fecha de nacimiento</p>
-                        <input type="date" name"FNacimiento">
-                    </div>
-                    <button name="Login" class="Login"><a href="./Bitacora.html">Solicitar registro</a></button>
-                    <div class="registrarse"><a href="./IniciarSesion.html">Iniciar Sesión</a></div>
-                    <div class="registrarse"><a href="./Registrarse.html">Registrarme</a></div>
-                </form>
+        <main style="background-image: url('./Images/Background.png'); width: 100%;">
+            <div class="Contenedor" style="background-image: url('./Images/Loginb.png'); height: 100%;">
+                <div class="Botones-login">
+                    <h1>Registro de Administrador</h1>
+                    <form method="post">
+                        <div class="text_field">
+                            <input type="text" id="Usuario" required>
+                            <span></span>
+                            <label>Usuario</label>
+                        </div>
+                        <div class="text_field">
+                            <input type="password" id="Contrasenia" required>
+                            <span></span>
+                            <label>Contraseña</label>
+                        </div>
+                        <div class="Nacimiento">
+                            <p>Fecha de nacimiento</p>
+                            <input type="date" name"FNacimiento">
+                        </div>
+                        <input type="submit" onclick="return ValidarRegistro()" class="BLog" value="Registrarme">
+                        <div class="registrarse"><a href="./IniciarSesion.html">Iniciar Sesión</a></div>
+                        <div class="registrarse"><a href="./Registrarse.html">Registrarme</a></div>
+                    </form>
+                </div>
+                <div class="Titulo-login">
+                    <section class="Log">
+                        <img src="./Images/Logo.png" alt="Codyrep">
+                    </section>
+                    <section class="Pic">
+                        <img src="./Images/Buddies-bro.png" alt="Codyrep">
+                </div>
             </div>
-            <div class="Titulo-login">
-                <H1>Goze de los beneficios de ser administrador</H1>
-                <p>Solicite su acceso aquí mismo.</p>
-            </div>
+            <a href="https://storyset.com/love">Love illustrations by Storyset</a>
         </main>
+
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+        <script src="./JS/ValidarRegistroAdmin.js"></script>
 
     </body>
 </html>

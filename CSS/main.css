@@ -1,3 +1,7 @@
+*{
+    box-sizing: border-box;
+}
+
 body{
     font-family:Georgia, impact, Times, serif;
     color:rgb(49, 49, 49);
@@ -5,6 +9,8 @@ body{
 }
 
 header{
+    padding-left: 5rem;
+    padding-right: 5rem;
     background-color: #64ccf4;
     color:white;
     position: fixed;
@@ -53,14 +59,27 @@ header a{
 .Topics{
     margin: 3rem;
     align-items: center;
+    text-align: center;
+    justify-content: center;
     overflow: hidden;
 }
 
 .Topic{
     margin: 2rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
     text-align: center;
-    width: 40%;
+    display: flex;
+    width: 35%;
     float: left;
+    justify-content: center;
+    align-items: center;
+}
+
+.Vinculo{
+    color: #006f9b;
+    display: inline-block;
+    text-align: center;
 }
 
 footer{
@@ -139,4 +158,60 @@ footer{
 .col-foot .social-links a:hover{
     color: #ffffff;
     background-color: #ff66a1;
+}
+
+.Etopic{
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 50%;
+    box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.50);
+    cursor: pointer;
+}
+
+.Etopic img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+
+.Capa{
+    position:absolute;
+    color: #ffffff;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #00000080;
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+
+.Etopic:hover > .Capa{
+    opacity: 1;
+    visibility: visible;
+}
+
+.Etopic:hover > .Capa h3{
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+}
+
+.Etopic:hover > .Capa p{
+    margin-bottom: 4rem;
+}
+
+.Capa h3{
+    transition: all 500ms ease-out;
+}
+
+.Capa p{
+    transition: all 500ms ease-out;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.Etopic:hover >  img{
+    transform: scale(1.3);
 }
