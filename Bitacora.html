@@ -13,13 +13,13 @@
     </head>
     <body>
 
-        <header>
+        <header style="background-image: url('./Images/Nav.png'); width: 100%;">
             <div class="header-container">
-                <img src="./Images/logo.png" alt="Codificate" title="Codificate" width="20%" class="logo">
+                <img src="./Images/logo.png" alt="Codificate" title="Codificate" width="10%" class="logo">
                 <nav class="navegation">
                     <ul>
                         <li><a href="./index.html">Inicio</a></li>
-                        <li><a href="./Articulos.html">Artículos</a></li>
+                        <li><a href="./Topics.html">Artículos</a></li>
                         <li><a href="./Login.html">Bitácora</a></li>
                     </ul>
                 </nav>
@@ -28,19 +28,16 @@
 
         <div class="space"></div>
 
-        <main>
+        <main style="background-image: url('./Images/Background.png'); width: 100%;">
             <div class="barra-navegation">
-                <section class="Foto"><img src="./Images/anonimo.png" alt="Usuario activo" title="Usuario Activo" width="90%"></section>
-                <section class="Datos-Usuario">
                     <ul>
-                        <li><a href="./Perfil.html">Perfil</a></li>
-                        <li><a href="./Logros.html">Logros</a></li>
-                        <li><a href="./ResumenMensual.html">Resumen mensual</a></li>
+                        <section class="Vinculo"><li><a href="./Perfil.html">Perfil</a></li></section>
+                        <section class="Vinculo"><li><a href="./Logros.html">Logros</a></li></section>
+                        <section class="Vinculo"><li><a href="./ResumenMensual.html">Resumen mensual</a></li></section>
                     </ul>
-                </section>
             </div>
             <div class="Bitacora">
-                <section class="Registro">
+                <section class="Registro" id="Hoy">
                     <h2>¿Tuviste sexo hoy?</h2>
                     <button name="Sí">Sí</button>
                     <button name="No">No</button>
@@ -58,9 +55,40 @@
                     <button name="No">Aceptar</button>
                 </section>
                 <section class="Registro">
-                    <h2>Programar Revisión medica</h2>
-                    <p>¿Cuándo es su revisión?</p>
-                    <input type="date" name"Citas"><br>
+                    <h2>Recordatorio de metodos anticonceptivos</h2>
+                    <p>¿Para cuándo los necesita?</p>
+                    <input type="date" name"anticonceptivos"><br>
+                    <button name="No">Aceptar</button>
+                </section>
+                <section class="Registro">
+                    <h2>Añadir una nota</h2>
+                    <select name="TipoN">
+                       <option selected value="0">Tipo de nota</option>
+                       <option value="1">Revision medica</option> 
+                       <option value="2">Relacion sexual</option> 
+                       <option value="3">Metodos anticonceptivos</option> 
+                       </optgroup>
+                    </select>
+                    <p>Fecha de la nota</p>
+                    <input type="date" name"nota"><br>
+                    <input type="text" class="Contenido" name="ncontenido"><br>
+                    <p class="Text">Observación</p>
+                    <button class="Boton" name="Nota">Aceptar</button>
+                </section>
+                <section class="Registro">
+                    <h2>Añadir recordatorio</h2>
+                    <select name="TipoN">
+                       <option selected value="0">Tipo de nota</option>
+                           <option value="1">Revision medica</option> 
+                           <option value="2">Relacion sexual</option> 
+                           <option value="3">Metodos anticonceptivos</option> 
+                       </optgroup>
+                    </select>
+                    <p>Fecha recordatorio</p>
+                    <input type="date" name"recordatorio"><br>
+                    <input type="text" class="Contenido" name="ncontenido"><br>
+                    <p class="Text">Observación</p>
+                    <button class="Boton" name="Recordatorio">Aceptar</button>
                 </section>
             </div>
         </main>

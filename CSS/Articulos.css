@@ -1,62 +1,51 @@
-body{
-    font-family:Georgia, impact, Times, serif;
-    color:rgb(49, 49, 49);
-    box-sizing: border-box;
+.list-articles{
+ padding: 3rem;
+ padding-left: 15rem;
+ padding-right: 15rem;
+ width: 100%;
+}
+.element-article{
+    color: white;
+    align-items: center;
+    text-align: center;
+    overflow: hidden;
+    width: 100%;
+    height: 10rem;
+    margin: 2rem;
+    border-radius: 25px;
+    box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.50);
+    cursor: pointer;
 }
 
-main{
-    
-    display: flex;
-    flex-wrap: wrap;
+.Title-element{
+    width: 100%;
+    padding-top: 2rem;
+}
+
+.Title-element :hover{
+    background-color: rgba(0, 0, 0, 0.24);
+}
+
+.Title-element h2{
+    color: white;
+    text-decoration: none;
 }
 
 .barra-navegation{
-    background-color: #ffb9d5;
+    background-color: #ffd9e8;
     padding: 2rem;
-    width: 20%;
+    padding-left: 10rem;
+    width: 100%;
 }
 
-.barra-navegation h3 a{
+.barra-navegation a{
     font-size: 18px;
-    color: #ff0062;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    color: #dd0055;
     text-transform: capitalize;
-    margin-bottom: 30px;
     font-weight: 500;
     position: relative;
     text-decoration: none;
 }
 
-.barra-navegation ul{
-    list-style: none;
-}
-
-.barra-navegation ul li:not(:last-child){
-    margin-bottom: 10px;
-}
-
-.barra-navegation ul li a{
-    font-size: 16px;
-    text-transform: capitalize;
-    color: rgb(49, 49, 49);
-    text-decoration: none;
-    font-weight: 300;
-    display: block;
-    transition-delay: all 0.3s ease;
-}
-
-.barra-navegation ul li a:hover{
-    color: #006f9b;
-    padding-left: 10px;
-}
-
-.Topics{
-    width: 60%;
-
-}
-
-.Topic{
-    margin: 2rem;
-    text-align: center;
-    width: 40%;
-    float: left;
-}
