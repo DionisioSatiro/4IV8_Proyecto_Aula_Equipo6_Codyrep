@@ -1,0 +1,12 @@
+.Contenedor{
+    width: 80%;
+    height: 200rem;
+    padding: 10rem;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.Titulo{
+    width: 100%;
+}
