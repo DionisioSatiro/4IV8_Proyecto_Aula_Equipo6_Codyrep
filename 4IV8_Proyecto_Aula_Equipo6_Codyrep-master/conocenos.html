@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UIF-8">
+        <title>Conocenos</title>
+        <link rel="stylesheet"href="CSS/formulario.css">
+        <script src="/JS/formulario.js"></script>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <form action="renviar.php" method="POST" class="form-register" onsubmit="return validar();">
+            <h2 class="form__titulo">CONOCENOS</h2>
+            <div class=contenedor-inputs>
+                <input type="text" id="nombre" name="nombre" placeholder="Nombre" class="input-50">
+                <input type="text" id="apellidos" name="apellidos" placeholder="Apellidos" class="input-50">
+                <input type="text" id="correo" name="correo" placeholder="Correo" class="input-100">
+                <input type="text" id="telefono" name="telefono" placeholder="Telefono" class="input-100">
+                <input type="text" id="mensaje" name="mensaje" placeholder="Mensaje" class="input-100">
+                <input type="submit" value="Enviar" class="btn-enviar">
+            </div>
+        </form>
+        <div>
+            <img src="./img/logo.png"  
+            width = "250px" height = "250px" />
+        </div>
+    </body>
+</html>

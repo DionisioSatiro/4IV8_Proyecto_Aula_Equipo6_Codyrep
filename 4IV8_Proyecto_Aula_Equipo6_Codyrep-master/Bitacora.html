@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Codyrep</title>
+        <link rel="stylesheet" type="text/css" href="./CSS/main.css">
+        <link rel="stylesheet" type="text/css" href="./CSS/Bitacora.css">
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+    </head>
+    <body>
+
+        <header style="background-image: url('./Images/Nav.png'); width: 100%;">
+            <div class="header-container">
+                <img src="./Images/logo.png" alt="Codificate" title="Codificate" width="10%" class="logo">
+                <nav class="navegation">
+                    <ul>
+                        <li><a href="./index.html">Inicio</a></li>
+                        <li><a href="./Topics.html">Artículos</a></li>
+                        <li><a href="./Login.html">Bitácora</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <div class="space"></div>
+
+        <main style="background-image: url('./Images/Background.png'); width: 100%;">
+            <div class="barra-navegation">
+                    <ul>
+                        <section class="Vinculo"><li><a href="./Perfil.html">Perfil</a></li></section>
+                        <section class="Vinculo"><li><a href="./Logros.html">Logros</a></li></section>
+                        <section class="Vinculo"><li><a href="./ResumenMensual.html">Resumen mensual</a></li></section>
+                    </ul>
+            </div>
+            <div class="Bitacora">
+                <section class="Registro" id="Hoy">
+                    <h2>¿Tuviste sexo hoy?</h2>
+                    <button name="Sí">Sí</button>
+                    <button name="No">No</button>
+                </section>
+                <section class="Registro">
+                    <h2>Registrar Relaciones sexuales anteriores</h2>
+                    <p>Fecha cuando se tuvo una relación sexual</p>
+                    <input type="date" name"Relacion"><br>
+                    <button name="No">Aceptar</button>
+                </section>
+                <section class="Registro">
+                    <h2>Recordatorio de metodos anticonceptivos</h2>
+                    <p>¿Para cuándo los necesita?</p>
+                    <input type="date" name"anticonceptivos"><br>
+                    <button name="No">Aceptar</button>
+                </section>
+                <section class="Registro">
+                    <h2>Recordatorio de metodos anticonceptivos</h2>
+                    <p>¿Para cuándo los necesita?</p>
+                    <input type="date" name"anticonceptivos"><br>
+                    <button name="No">Aceptar</button>
+                </section>
+                <section class="Registro">
+                    <h2>Añadir una nota</h2>
+                    <select name="TipoN">
+                       <option selected value="0">Tipo de nota</option>
+                       <option value="1">Revision medica</option> 
+                       <option value="2">Relacion sexual</option> 
+                       <option value="3">Metodos anticonceptivos</option> 
+                       </optgroup>
+                    </select>
+                    <p>Fecha de la nota</p>
+                    <input type="date" name"nota"><br>
+                    <input type="text" class="Contenido" name="ncontenido"><br>
+                    <p class="Text">Observación</p>
+                    <button class="Boton" name="Nota">Aceptar</button>
+                </section>
+                <section class="Registro">
+                    <h2>Añadir recordatorio</h2>
+                    <select name="TipoN">
+                       <option selected value="0">Tipo de nota</option>
+                           <option value="1">Revision medica</option> 
+                           <option value="2">Relacion sexual</option> 
+                           <option value="3">Metodos anticonceptivos</option> 
+                       </optgroup>
+                    </select>
+                    <p>Fecha recordatorio</p>
+                    <input type="date" name"recordatorio"><br>
+                    <input type="text" class="Contenido" name="ncontenido"><br>
+                    <p class="Text">Observación</p>
+                    <button class="Boton" name="Recordatorio">Aceptar</button>
+                </section>
+            </div>
+        </main>
+
+    </body>
+</html>

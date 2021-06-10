@@ -1,0 +1,234 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Staatliches', cursive;
+    color:rgb(49, 49, 49);
+    box-sizing: border-box;
+}
+
+header{
+    padding-left: 5rem;
+    padding-right: 5rem;
+    background-color: #64ccf4;
+    color:white;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+}
+
+header a{
+    color: white;
+    text-decoration: none;
+}
+
+.header-container{
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navegation ul{
+    margin: 0px;
+    padding: 0;
+    list-style: none;
+}
+
+.navegation ul li{
+    display: inline-block;
+}
+
+.navegation ul li a{
+    display: block;
+    padding: 0.5rem 1rem;
+    transition: all 0.4s linear;
+    border-radius: 5px;
+}
+
+.navegation ul li a:hover{
+    background-color: #39bbee;
+}
+
+.space{
+    height: 3rem;
+}
+
+.Topics{
+    margin: 3rem;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.Topic{
+    margin: 2rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    text-align: center;
+    display: flex;
+    width: 35%;
+    float: left;
+    justify-content: center;
+    align-items: center;
+}
+
+.Vinculo{
+    color: #006f9b;
+    display: inline-block;
+    text-align: center;
+}
+
+footer{
+    background-color: #39bbee;
+    padding: 2rem;
+}
+
+.footer-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-foot{
+    width: 20%;
+    padding: 0 10px;
+}
+
+.col-foot h4{
+    font-size: 18px;
+    color: #006f9b;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    font-weight: 500;
+    position: relative;
+}
+
+.col-foot h4::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #ff66a1;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+
+.col-foot ul{
+    list-style: none;
+}
+
+.col-foot ul li:not(:last-child){
+    margin-bottom: 10px;
+    color: rgb(49, 49, 49);
+}
+
+.col-foot ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: rgb(49, 49, 49);
+    text-decoration: none;
+    font-weight: 300;
+    display: block;
+    transition-delay: all 0.3s ease;
+}
+
+.col-foot ul li a:hover{
+    color: #ff2d7e;
+    padding-left: 10px;
+}
+
+.col-foot .social-links a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: #ff2d7e;
+    color: rgb(49, 49, 49); 
+    margin: 10px 10px 10px 10px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    transition:all 0.5% ease;
+    
+}
+
+.col-foot .social-links a:hover{
+    color: #ffffff;
+    background-color: #ff66a1;
+}
+
+.Etopic{
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 50%;
+    box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.50);
+    cursor: pointer;
+}
+
+.Etopic img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+
+.Capa{
+    position:absolute;
+    color: #ffffff;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #00000080;
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+
+.Etopic:hover > .Capa{
+    opacity: 1;
+    visibility: visible;
+}
+
+.Etopic:hover > .Capa h3{
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+}
+
+.Etopic:hover > .Capa p{
+    margin-bottom: 4rem;
+}
+
+.Capa h3{
+    transition: all 500ms ease-out;
+}
+
+.Capa p{
+    transition: all 500ms ease-out;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.Etopic:hover >  img{
+    transform: scale(1.3);
+}
+
+.Texto{
+    text-align: center;
+    width: 70%;
+    display: inline-block;
+    margin-left: 15%;
+}
+.Texto h2{
+    font-size: 60px;
+}
+.Texto h3{
+    font-size: 40px;
+}
+.Texto p{
+    font-size: 25px;
+    
+}

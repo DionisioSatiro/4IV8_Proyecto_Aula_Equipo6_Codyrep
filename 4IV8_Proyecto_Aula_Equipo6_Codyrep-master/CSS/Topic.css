@@ -1,0 +1,29 @@
+body{
+    font-family:Georgia, impact, Times, serif;
+    color:rgb(49, 49, 49);
+    box-sizing: border-box;
+}
+
+main{
+    
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Topics{
+    width: 100%;
+    padding-right: 2rem;
+
+}
+
+.Topic{
+    margin-left: 8rem;
+    margin-right: 4rem;
+    text-align: center;
+    width: 30%;
+    float:left;
+}
+
+.Capa h3{
+    padding-top: 16rem;
+}

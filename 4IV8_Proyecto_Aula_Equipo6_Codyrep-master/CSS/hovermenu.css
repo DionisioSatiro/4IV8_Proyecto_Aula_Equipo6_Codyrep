@@ -1,0 +1,22 @@
+:root{
+    --hr-color:#237891;
+    --red:#e74c3c;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  
+  
+  body {
+    font-size: 40px;
+    background-image: url("../Images/Background_grande.png");
+    
+    
+  }
+  
+  
+  
+  
